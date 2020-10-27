@@ -1,3 +1,15 @@
+# dependencies  npm包文件
+/node_modules
+
+# production  打包文件
+/build
+
+# misc
+.DS_Store
+
+/.idea
+npm-debug.log*
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -107,6 +119,8 @@ _book
 
 # node.js
 node_modules
+package-lock.json
+
 
 # windows
 Thumbs.db
@@ -122,3 +136,9 @@ src
 *.sh
 /.idea
 MongoDB-Manual-zh/README.md
+
+debug/
+official/
+docs_template/
+src/docs-template.txt
+src/docs.txt
